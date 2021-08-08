@@ -1,0 +1,10 @@
+
+<div class="grid grid-cols-4 gap-8 w-100">
+    
+    {{#each beersFromApi}}
+     {{>beerpartial this}}
+     
+    {{!-- <li>{{this.name}}</li> --}}
+    {{/each}}
+</div>
+

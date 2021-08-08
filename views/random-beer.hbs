@@ -1,0 +1,13 @@
+{{!-- <h1>beers</h1>
+<ul>
+    {{beer2.name}}  
+</ul> --}}
+
+{{!-- <h1>random beer</h1> --}}
+<div class="m-auto">
+    {{#each beer}}
+    {{>beerpartial this}}
+
+    {{!-- <li>{{this.name}}</li> --}}
+    {{/each}}
+</div>
