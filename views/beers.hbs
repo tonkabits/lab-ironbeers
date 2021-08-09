@@ -1,10 +1,12 @@
 
 <div class="grid grid-cols-4 gap-8 w-100">
-    
     {{#each beersFromApi}}
-     {{>beerpartial this}}
-     
-    {{!-- <li>{{this.name}}</li> --}}
+        <a href="beer/{{id}}" class="bg-purple-100 flex flex-col justify-between">
+            <div class="py-10 pb-3 h-46 ">
+                {{>beerpartial this}}
+                {{!-- {{>randombeerpartialextrainfo this}}   --}}
+            </div>
+        </a>
     {{/each}}
 </div>
 

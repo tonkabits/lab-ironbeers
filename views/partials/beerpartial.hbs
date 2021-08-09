@@ -18,34 +18,19 @@
             </div>
         </div> --}}
                 {{!-- <div class='grid grid-cols-3 h-full pb-40'> --}}
-                    <a href="/{{id}}" class="bg-purple-100">
-                        <div class="py-10 pb-3 h-4/6 ">
+            
                             <div>
                                 <img class="h-60 m-auto" src="{{image_url}}" alt="https://www.pngegg.com/en/png-nllal/download">
                             </div>
                             <div class="px-7 mt-20">
-                                <h1 class="text-3xl font-bold">{{id}}.</h1>
-                                <h2 class="text-1xl mt-4 font-bold">{{name}}</h2>
+                                <h1 class="text-3xl font-bold text-purple-900">{{id}}.</h1>
+                                <h2 class="text-2xl mt-4 font-bold">{{name}}</h2>
+                                <div class="bg-purple-200 py-1 my-2">
+                                    <h2 class="text-sm m-2  font-italic text-left text-purple-900 font-mono"><span class="font-mono text-xl text-white">"</span>{{tagline}}<span class="font-mono text-xl text-white">"</span></h2>
+                                </div>
                                 <p class="mt-2 opacity-60 h-32 overflow-clip overflow-hidden ...">{{description}}</p>
-                                <h2 class="text-xl mt-4 font-italic">{{tagline}}</h2>
                             </div>
-                            {{!-- {{#if food_pairing}}
-                            <div class="font-bold">food pairing</div>
-                             {{#each food_pairing}}
-                                {{this}}
-                             {{/each}}
-                            {{/if}}
-                            
-
-                            {{#if brewers_tips}}
-                            <div class="font-bold">brewers tips</div>
-                            {{brewers_tips}}
-                
-                            {{/if}} --}}
-                            </div>
-                            
-                    </a>
-                    
+            
 
 
 {{!-- image 

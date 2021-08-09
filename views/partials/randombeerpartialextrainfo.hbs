@@ -1,0 +1,19 @@
+{{#if food_pairing}}
+<div class="px-7">
+    <div class="font-bold">food pairing</div>
+    <ul>
+        {{#each food_pairing}}
+            <li class="ml-2">
+                {{this}}
+            </li>
+        {{/each}}
+    </ul>
+    {{/if}}
+
+    {{#if brewers_tips}}
+    <div class="font-bold mt-3">brewers tips</div>
+    <span class="ml-2">
+        {{brewers_tips}}
+    </span>
+</div>
+{{/if}}
